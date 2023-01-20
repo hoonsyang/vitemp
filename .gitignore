@@ -1,3 +1,11 @@
+*.zip
+logs/
+model/
+saved_model_GT/
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
