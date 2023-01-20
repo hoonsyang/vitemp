@@ -1,9 +1,14 @@
+
 *.zip
 logs/
-model/
-saved_model_GT/
+model/*.pth
+saved_models_GT/*/*.pth
 
-
+imagenet/val224_compressed.pkl
+imagenet/public_dataset/pytorch/imagenet-data/*
+public_dataset/pytorch/*/*
+public_dataset/pytorch/*/*/*
+eval_batch/
 
 
 # Byte-compiled / optimized / DLL files
