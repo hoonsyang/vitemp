@@ -57,12 +57,12 @@ class LoadConfig(object):
         # please downloading the dataset first, and put them to the following path.
         if dataset == 'CUB':
             self.dataset = dataset
-            self.rawdata_root = 'your_CUB_path'
+            self.rawdata_root = '/home/vilab/yhm/dataset/CUB-200-2011/images'
             self.anno_root = 'DCL_finegrained/datasets/CUB'
             self.numcls = 200
         elif dataset == 'STCAR':
             self.dataset = dataset
-            self.rawdata_root = '/home/vilab/yhm/dataset/STCAR/cars_test'
+            self.rawdata_root = '/home/vilab/yhm/dataset/STCAR/cars'
             self.anno_root = 'DCL_finegrained/datasets/STCAR'
             self.numcls = 196
         elif dataset == 'AIR':
