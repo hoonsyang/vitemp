@@ -1,11 +1,13 @@
-
+# custom
 *.zip
 logs/
+log/*
 model/*.pth
 saved_models_GT/*/*.pth
 
 imagenet/val224_compressed.pkl
 imagenet/public_dataset/pytorch/imagenet-data/*
+public_dataset/pytorch/*.pkl
 public_dataset/pytorch/*/*
 public_dataset/pytorch/*/*/*
 eval_batch/
